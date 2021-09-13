@@ -1,0 +1,30 @@
+.header {
+  background-color: aqua;  
+  border: solid 1px transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  background: linear-gradient(to top, red, blue);
+}
+
+.header__text {
+  margin: 0;
+}
+
+.header__form-select {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+/* select:after{
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-image: url("/put_k_strelke");
+  position: absolute;
+  right: 5px;
+  top: 5px;
+} */
